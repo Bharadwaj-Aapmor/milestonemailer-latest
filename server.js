@@ -51,6 +51,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
+      "milestonemailer.azurewebsites.net",
       "https://milestonemailer-latest.onrender.com", // your Render URL
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
